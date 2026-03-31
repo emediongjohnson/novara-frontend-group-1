@@ -1,16 +1,63 @@
-# React + Vite
+🌍 Planet Explorer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React web application for exploring planetary data through an interactive and modern user interface.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Explore planets in our solar system
+- Interactive UI with reusable components
+- Planet comparison and data visualization
+- Responsive design (mobile + desktop)
+- Contact form for user interaction
 
-## React Compiler
+🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (Vite)
+- JavaScript (ES6+)
+- CSS3
+- Git & GitHub
 
-## Expanding the ESLint configuration
+📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+  components/
+    Header/
+    Hero/
+    InfoSection/
+    VideoPlayer/
+    Planets/
+    PlanetCard/
+    PlanetTable/
+    ContactForm/
+    Footer/
+
+⚙️ Getting Started
+
+Clone the repository:
+
+git clone https://github.com/emediongjohnson/novara-frontend-group-1.git
+
+Install dependencies:
+
+npm install
+
+Run the app:
+
+npm run dev
+
+👥 Team Collaboration
+
+- Each team member works on a specific component
+- Do not modify the main App.jsx structure
+- Always create a new branch before working
+
+📌 Future Improvements
+
+- API integration (NASA planetary data)
+- Improved UI animations
+- Form validation
+- Deployment (Netlify/Vercel)
+
+📄 License
+
+This project is for educational purposes (Capstone Project).
