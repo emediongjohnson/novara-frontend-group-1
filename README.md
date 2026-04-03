@@ -13,34 +13,54 @@ coming soon
 
 🧑‍💻 Team Members
 
-Name| GitHub Profile| Role
-Emediong Johnson| https://github.com/emediongjohnson| Project Coordination, Repository Setup, Components Setup, Global CSS, App.jsx & Main.jsx, Debugging, Testing & QA, README Updates
-Ademilola| https://github.com/ademilola-04| Header (JSX + CSS)
-Creativeakj| https://github.com/creativeakj| Hero (JSX + CSS)
-Emmanuel| https://github.com/Emerald2112hub| Info Section (JSX + CSS)
-Daniel| https://github.com/dannwillz| Video Player (JSX + CSS)
-Jamic| https://github.com/Jamic-dev| Planets (JSX), Cross-Platform Testing & QA
-Diya| https://github.com/diya210| Planets (CSS), Testing & QA
-Esther| https://github.com/esthersalau8-ux| Planet Table (JSX + CSS)
-Lara| https://github.com/laraolamipo-stack| Contact Form (JSX + CSS)
-Marcel| https://github.com/marcelchike| Footer (JSX + CSS), Deployment (Hosting & Live Link)
+Name| GitHub Profile
+(1) Emediong Johnson| https://github.com/emediongjohnson
+
+(2) Ademilola| https://github.com/ademilola-04
+
+(3) Creativeakj| https://github.com/creativeakj
+
+(4) Emmanuel| https://github.com/Emerald2112hub
+
+(5) Daniel| https://github.com/dannwillz
+
+(6) Jamic| https://github.com/Jamic-dev
+
+(7) Diya| https://github.com/diya210
+
+(8) Esther| https://github.com/esthersalau8-ux
+
+(9) Lara| https://github.com/laraolamipo-stack
+
+(10) Marcel| https://github.com/marcelchike| Footer (JSX + CSS), Deployment (Hosting & Live Link)
 
 
 
 🧩 Components & Contributors
 
 Component| File Location| Description| Contributor(s)
+
 Header| src/components/Header/| Navigation bar with responsive links and layout| Ademilola
+
 Hero| src/components/Hero/| Landing section with CTA and visuals| Creativeakj
+
 Info Section| src/components/Info/| Informational section about planets| Emmanuel
+
 Video Player| src/components/VideoPlayer/| Displays video content with responsive layout| Daniel
+
 Planets (JSX)| src/components/Planets/| Fetches API data and renders planet cards| Jamic
+
 Planets (CSS)| src/components/Planets/| Grid layout, hover effects, responsiveness| Diya
+
 Planet Table| src/components/PlanetTable/| Displays planetary data in table format| Esther
+
 Contact Form| src/components/ContactForm/| Form inputs, validation, submission logic| Lara
+
 Footer| src/components/Footer/| Footer with links and team credits| Marcel
-Deployment| Entire Project| Hosting and live deployment using Vercel| Marcel
-Project Setup & QA| Entire Project| Setup, debugging, testing, and coordination| Emediong Johnson
+
+Deployment| Hosting and live deployment using Vercel| Marcel
+
+Project Setup & QA| Project Setup, debugging, testing, and coordination| Emediong Johnson
 
 
 
