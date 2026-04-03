@@ -36,6 +36,8 @@ Name| GitHub Profile
 
 
 
+
+
 🧩 Components & Contributors
 
 Component| File Location| Description| Contributor(s)
@@ -58,9 +60,9 @@ Contact Form| src/components/ContactForm/| Form inputs, validation, submission l
 
 Footer| src/components/Footer/| Footer with links and team credits| Marcel
 
-Deployment| Hosting and live deployment using Vercel| Marcel
+Project Setup and Coordination, READme updates| debugging, testing, Hostiing and Deployment using Vercel | Emediong Johnson
 
-Project Setup & QA| Project Setup, debugging, testing, and coordination| Emediong Johnson
+
 
 
 
@@ -74,6 +76,8 @@ The data is dynamically rendered in the Planets component.
 
 
 
+
+
 ⚙️ Technologies Used
 
 - React.js
@@ -81,6 +85,8 @@ The data is dynamically rendered in the Planets component.
 - CSS3
 - Git & GitHub
 - Vercel (Deployment)
+
+
 
 
 
@@ -103,6 +109,8 @@ src/
 
 
 
+
+
 🔄 Workflow
 
 - Each member worked on assigned components
@@ -110,6 +118,8 @@ src/
 - Contributions were submitted via Pull Requests
 - Pull Requests were reviewed and merged by a team member
 - Deployment was handled after final testing
+
+
 
 
 
@@ -124,15 +134,20 @@ src/
 
 
 
+
 📜 Conclusion
 
 This project showcases teamwork, frontend development skills, and real-world collaboration using GitHub workflows.
 
 
 
+
+
 👥 Acknowledgement
 
 Built with collaboration by Novara Frontend Group 1    Footer/
+
+
 
 
 📄 License
