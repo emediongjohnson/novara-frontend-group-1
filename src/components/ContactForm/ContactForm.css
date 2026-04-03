@@ -1,1 +1,128 @@
 
+/* CONTACT SECTION */
+.contact {
+  background: #f5f7fb;
+  padding: 80px 20px;
+}
+
+.contact-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* HEADING */
+.contact h2 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+/* DESCRIPTION */
+.contact p {
+  color: #64748b;
+  margin-bottom: 40px;
+}
+
+/* FORM LAYOUT */
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/* INPUT GROUP */
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* INPUT FIELDS */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* INPUT FOCUS EFFECT */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #1e40af;
+  box-shadow: 0 0 0 2px rgba(30, 64, 175, 0.1);
+}
+
+/* TEXTAREA */
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+/* SMALL TEXT */
+small {
+  font-size: 12px;
+  color: #999;
+}
+
+/* RADIO & CHECKBOX GROUP */
+.radio-group,
+.checkbox-group {
+  margin-top: 15px;
+}
+
+.radio-group p,
+.checkbox-group p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* RADIO & CHECKBOX ITEMS */
+.radio-group label,
+.checkbox-group label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 15px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+/* SUBMIT BUTTON */
+.submit-btn {
+  grid-column: span 2;
+  margin: 20px auto 0; /* centers button */
+  display: block;
+  background: #1e40af;
+  color: white;
+  padding: 14px 30px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 200px;
+  transition: all 0.3s ease;
+}
+
+/* BUTTON HOVER */
+.submit-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(30, 64, 175, 0.2);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+
+  .submit-btn {
+    width: 100%;
+    margin: 20px 0 0;
+  }
+}
