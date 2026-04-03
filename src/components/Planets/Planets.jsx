@@ -30,7 +30,7 @@ function Planets() {
   }, []);
 
   return (
-    /* ✅ ADD ID HERE */
+    /* ID */
     <section id="planets-section" className="planet-section">
       <div className="planet-container">
 
