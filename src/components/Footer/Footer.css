@@ -13,10 +13,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;      
+  text-align: center;
 }
 
 /* TOP SECTION */
+.footer-top {
+  max-width: 700px;
+}
+
 .footer-top h3 {
   font-size: 28px;
   color: white;
@@ -26,7 +30,6 @@
 .footer-top p {
   font-size: 16px;
   line-height: 1.8;
-  max-width: 700px;
 }
 
 /* TEAM LINKS */
@@ -64,54 +67,40 @@
 
 /* DIVIDER */
 .footer-divider {
+  width: 100%;
   margin: 30px 0;
   height: 1px;
   background: rgba(255, 255, 255, 0.3);
 }
 
-/* BOTTOM SECTION */
+
+/* FOOTER BOTTOM SECTION */
+
 .footer-bottom {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: space-between; /*left & right alignment */
+  align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
+  text-align: left; /* stop centering */
 }
 
+/* LEFT TEXT BLOCK */
 .footer-bottom p {
+  margin: 0;
   font-size: 16px;
   line-height: 1.6;
 }
 
+/* RIGHT LINK */
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
 /* DESIGNER LINK */
-.designer-link {
-  color: #93c5fd;
-  text-decoration: none;
-  font-weight: 500;
-  position: relative;
-  transition: color 0.3s ease;
-}
-
-.designer-link:hover {
-  color: #60a5fa;
-}
-
-/* DESIGNER UNDERLINE */
-.designer-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -3px;
-  width: 0%;
-  height: 2px;
-  background: #60a5fa;
-  transition: width 0.3s ease;
-}
-
-.designer-link:hover::after {
-  width: 100%;
-}
-
-/* GROUP LINK */
+.designer-link,
 .group-link {
   color: #93c5fd;
   text-decoration: none;
@@ -120,12 +109,15 @@
   transition: color 0.3s ease;
 }
 
+.designer-link:hover,
 .group-link:hover {
   color: #60a5fa;
 }
 
-/* GROUP UNDERLINE */
-.group-link::after {
+/* UNDERLINE EFFECT */
+.designer-link::after,
+.group-link::after,
+.footer-links a::after {
   content: "";
   position: absolute;
   left: 0;
@@ -136,7 +128,9 @@
   transition: width 0.3s ease;
 }
 
-.group-link:hover::after {
+.designer-link:hover::after,
+.group-link:hover::after,
+.footer-links a:hover::after {
   width: 100%;
 }
 
@@ -154,26 +148,12 @@
   color: #60a5fa;
 }
 
-/* TSA UNDERLINE */
-.footer-links a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 0%;
-  height: 2px;
-  background: #60a5fa;
-  transition: width 0.3s ease;
-}
+/* RESPONSIVE FIX  */
 
-.footer-links a:hover::after {
-  width: 100%;
-}
-
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .footer-bottom {
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    text-align: center;
   }
 }
