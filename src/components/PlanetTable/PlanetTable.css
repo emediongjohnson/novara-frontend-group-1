@@ -1,1 +1,84 @@
+.planet-table-section {
+  background: #f5f7fb;
+  padding: 80px 20px;
+}
 
+.planet-table-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.planet-table-container h2 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.planet-table-container p {
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.table-caption {
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+/* TABLE */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 12px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  overflow: hidden;
+}
+
+/* HEADER */
+thead {
+  background: #1e40af;
+  color: white;
+}
+
+th {
+  padding: 14px;
+  font-size: 13px;
+  text-align: left;
+}
+
+/* BODY */
+td {
+  padding: 12px;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* CATEGORY STYLING */
+.category-main {
+  background: #e2e8f0;
+  font-weight: 600;
+  color: #1e3a8a;
+  text-align: center;
+}
+
+.category-sub {
+  background: #edf2f7;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* ROW HOVER */
+tbody tr:hover {
+  background: #f1f5f9;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  th,
+  td {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
