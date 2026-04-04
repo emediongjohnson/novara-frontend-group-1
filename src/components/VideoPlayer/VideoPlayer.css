@@ -1,1 +1,48 @@
+.video-section {
+  background: #f1f5f9;
+  padding: 0 20px 80px;
+}
 
+.video-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.video-wrapper {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* VIDEO */
+.video-element {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+}
+
+/* OVERLAY */
+.play-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* BUTTON */
+.play-button {
+  width: 60px;
+  height: 60px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2563eb;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.play-icon {
+  width: 24px;
+}
