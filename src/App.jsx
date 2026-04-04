@@ -1,18 +1,19 @@
 import { useRef } from "react";
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import InfoSection from "./components/InfoSection/InfoSection";
-import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
-import Planets from "./components/Planets/Planets";
-import PlanetTable from "./components/PlanetTable/PlanetTable";
-import ContactForm from "./components/ContactForm/ContactForm";
-import Footer from "./components/Footer/Footer";
+
+import Header from "./components/Header/Header.jsx";
+import Hero from "./components/Hero/Hero.jsx";
+import InfoSection from "./components/InfoSection/InfoSection.jsx";
+import VideoPlayer from "./components/VideoPlayer/VideoPlayer.jsx";
+import Planets from "./components/Planets/Planets.jsx";
+import PlanetTable from "./components/PlanetTable/PlanetTable.jsx";
+import ContactForm from "./components/ContactForm/ContactForm.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   const planetsRef = useRef(null);
 
   const scrollToPlanets = () => {
-    console.log("Scrolling..."); // 🔥 debug
+    console.log("Scrolling...");
     planetsRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -20,13 +21,13 @@ function App() {
     <>
       <Header />
 
-      {/* PASS FUNCTION */}
+      {/* Hero receives click handler */}
       <Hero onExploreClick={scrollToPlanets} />
 
       <InfoSection />
       <VideoPlayer />
 
-      {/* ATTACH REF */}
+      {/* Planets receives ref */}
       <Planets refProp={planetsRef} />
 
       <PlanetTable />
