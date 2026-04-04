@@ -19,7 +19,7 @@ Coming soon
 | Ademilola | [GitHub](https://github.com/ademilola-04) | Header (JSX + CSS), Cross-Platform Testing |
 | Creativeakj | [GitHub](https://github.com/creativeakj) | Hero (JSX + CSS) |
 | Daniel | [GitHub](https://github.com/dannwillz) | Video Player (JSX + CSS) |
-| Jamic | [GitHub](https://github.com/Jamic-dev) | Planets (JSX), Cross-Platform Testing (Pending) |
+| Jamic | [GitHub](https://github.com/Jamic-dev) | Planets (JSX), Cross-Platform Testing |
 | Lara | [GitHub](https://github.com/laraolamipo-stack) | Planets (CSS), Contact Form (JSX + CSS), Testing & QA |
 | Esther | [GitHub](https://github.com/esthersalau8-ux) | Planet Table (JSX + CSS) |
 | Marcel | [GitHub](https://github.com/marcelchike) | Footer (JSX + CSS) |
