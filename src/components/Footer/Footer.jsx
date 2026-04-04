@@ -23,7 +23,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Emediong
+              Johnson
             </a>
             ,{" "}
             <a
@@ -39,7 +39,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Ademilo
+              Ademilola
             </a>
             ,{" "}
             <a
@@ -56,14 +56,6 @@ function Footer() {
               rel="noopener noreferrer"
             >
               Daniel
-            </a>
-            ,{" "}
-            <a
-              href="https://github.com/diya210"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Diya
             </a>
             ,{" "}
             <a
@@ -88,14 +80,6 @@ function Footer() {
               rel="noopener noreferrer"
             >
               Lara
-            </a>
-            ,{" "}
-            <a
-              href="https://github.com/Emerald2112hub"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Emmanuel
             </a>
           </p>
         </div>
