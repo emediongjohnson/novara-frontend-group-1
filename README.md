@@ -14,17 +14,14 @@ Coming soon
 🧑‍💻 Team Members & Contributions
 
 Name| GitHub Profile| Contribution
-Emediong Johnson| https://github.com/emediongjohnson| Project Coordination, Info Section (JSX + CSS), Repository Setup, Components Setup, Global CSS, App.jsx & Main.jsx, Debugging, Testing & QA, README Updates, Deployment (In Progress)
-Ademilola| https://github.com/ademilola-04| Header (JSX + CSS), Cross-Platform Testing (Pending)
-Creativeakj| https://github.com/creativeakj| Hero (JSX + CSS)
-Emmanuel| https://github.com/Emerald2112hub| —
-Daniel| https://github.com/dannwillz| Video Player (JSX + CSS)
-Jamic| https://github.com/Jamic-dev| Planets (JSX), Cross-Platform Testing (Pending)
-Diya| https://github.com/diya210| —
-Esther| https://github.com/esthersalau8-ux| Planet Table (JSX + CSS)
-Lara| https://github.com/laraolamipo-stack| Planets (CSS), Contact Form (JSX + CSS), Testing & QA (Pending)
-Marcel| https://github.com/marcelchike| Footer (JSX + CSS)
-
+Emediong Johnson| "GitHub" (https://github.com/emediongjohnson)| Project Coordination, Info Section (JSX + CSS), Repository Setup, Components Setup, Global CSS, App.jsx & Main.jsx, Debugging, Testing & QA, README Updates, Deployment (In Progress)
+Ademilola| "GitHub" (https://github.com/ademilola-04)| Header (JSX + CSS), Cross-Platform Testing (Pending)
+Creativeakj| "GitHub" (https://github.com/creativeakj)| Hero (JSX + CSS)
+Daniel| "GitHub" (https://github.com/dannwillz)| Video Player (JSX + CSS)
+Jamic| "GitHub" (https://github.com/Jamic-dev)| Planets (JSX), Cross-Platform Testing (Pending)
+Lara| "GitHub" (https://github.com/laraolamipo-stack)| Planets (CSS), Contact Form (JSX + CSS), Testing & QA (Pending)
+Esther| "GitHub" (https://github.com/esthersalau8-ux)| Planet Table (JSX + CSS)
+Marcel| "GitHub" (https://github.com/marcelchike)| Footer (JSX + CSS)
 ---
 
 🧩 Project Task Progression
