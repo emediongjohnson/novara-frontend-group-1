@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./Planets.css";
 
-function Planets() {
+function Planets({ refProp }) {
   const [planets, setPlanets] = useState([]);
 
   const planetImages = {
@@ -30,8 +30,8 @@ function Planets() {
   }, []);
 
   return (
-    /* ID */
-    <section id="planets-section" className="planet-section">
+    /* SECTION WITH REF ATTACHED */
+    <section ref={refProp} id="planets-section" className="planet-section">
       <div className="planet-container">
 
         <h3>Visualizing the Differences Between Planets</h3>
