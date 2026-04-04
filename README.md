@@ -15,12 +15,12 @@ Coming soon
 
 | Name | GitHub Profile | Contribution |
 |------|--------------|-------------|
-| Emediong Johnson | [GitHub](https://github.com/emediongjohnson) | Project Coordination, Info Section (JSX + CSS), Repository Setup, Components Setup, Global CSS, App.jsx & Main.jsx, Debugging, Testing & QA, README Updates, Deployment (In Progress) |
-| Ademilola | [GitHub](https://github.com/ademilola-04) | Header (JSX + CSS), Cross-Platform Testing (Pending) |
+| Emediong Johnson | [GitHub](https://github.com/emediongjohnson) | Project Coordination, Info Section (JSX + CSS), Repository Setup, Components Setup, Global CSS, App.jsx & Main.jsx, Debugging, Testing & QA, README Updates, Deployment |
+| Ademilola | [GitHub](https://github.com/ademilola-04) | Header (JSX + CSS), Cross-Platform Testing |
 | Creativeakj | [GitHub](https://github.com/creativeakj) | Hero (JSX + CSS) |
 | Daniel | [GitHub](https://github.com/dannwillz) | Video Player (JSX + CSS) |
 | Jamic | [GitHub](https://github.com/Jamic-dev) | Planets (JSX), Cross-Platform Testing (Pending) |
-| Lara | [GitHub](https://github.com/laraolamipo-stack) | Planets (CSS), Contact Form (JSX + CSS), Testing & QA (Pending) |
+| Lara | [GitHub](https://github.com/laraolamipo-stack) | Planets (CSS), Contact Form (JSX + CSS), Testing & QA |
 | Esther | [GitHub](https://github.com/esthersalau8-ux) | Planet Table (JSX + CSS) |
 | Marcel | [GitHub](https://github.com/marcelchike) | Footer (JSX + CSS) |
 ---
