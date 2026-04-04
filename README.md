@@ -5,9 +5,9 @@ This project demonstrates component-based architecture, API integration, and rea
 
 ---
 
-🚀 Live Project
+🚀 Live Demo
 
-Coming soon
+https://novara-frontend-group-1-capstone-pr.vercel.app
 
 ---
 
@@ -41,18 +41,6 @@ Coming soon
 
 ---
 
-🚧 Ongoing Tasks
-
-- Deployment (Hosting & Live Link) — Emediong Johnson (In Progress)
-
----
-
-⏳ Pending Tasks
-
-- Testing & Quality Assurance — Lara
-- Cross-Platform Testing — Jamic, Ademilola
-
----
 
 🌐 API Integration
 
@@ -121,7 +109,9 @@ This project showcases teamwork, frontend development skills, and real-world col
 
 👥 Acknowledgement
 
-Built with collaboration by Novara Frontend Group 1
+Built collaboratively by Novara Frontend Group 1
+
+
 
 ---
 
