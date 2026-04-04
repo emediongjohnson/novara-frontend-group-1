@@ -1,1 +1,33 @@
+/* SECTION */
+.info {
+  background: #f1f5f9;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* CONTAINER */
+.info-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* TITLE */
+.info h2 {
+  font-size: 28px;
+  color: #1e293b;
+  margin-bottom: 16px;
+}
+
+/* TEXT */
+.info p {
+  color: #64748b;
+  font-size: 15px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.info span {
+  color: #2563eb;
+  font-weight: 600;
+}
 
