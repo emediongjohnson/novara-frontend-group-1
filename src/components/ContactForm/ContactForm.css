@@ -21,7 +21,7 @@
   margin-bottom: 40px;
 }
 
-/* FORM CARD (NEW - PREMIUM LOOK) */
+/* FORM CARD */
 .contact-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -33,7 +33,7 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-/* INPUT GROUP */
+/* LABEL */
 .contact-form label {
   display: block;
   font-size: 14px;
@@ -42,7 +42,7 @@
   font-weight: 500;
 }
 
-/* INPUT FIELDS (FIXED) */
+/* INPUT FIELDS */
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
@@ -52,10 +52,8 @@
   border-radius: 6px;
   border: 1px solid #ddd;
   font-size: 14px;
-
-  background-color: #ffffff;   /* 🔥 FIX */
-  color: #1e293b;             /* 🔥 FIX */
-
+  background-color: #ffffff;
+  color: #1e293b;
   transition: border 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -65,7 +63,7 @@
   color: #94a3b8;
 }
 
-/* INPUT FOCUS EFFECT */
+/* INPUT FOCUS */
 .contact-form input:focus,
 .contact-form select:focus,
 .contact-form textarea:focus {
@@ -86,12 +84,13 @@ small {
   color: #999;
 }
 
-/* RADIO & CHECKBOX GROUP */
+/* GROUP CONTAINERS */
 .radio-group,
 .checkbox-group {
   margin-top: 15px;
 }
 
+/* GROUP TITLES */
 .radio-group p,
 .checkbox-group p {
   margin-bottom: 10px;
@@ -99,14 +98,81 @@ small {
   color: #1e293b;
 }
 
-/* RADIO & CHECKBOX ITEMS */
+/* ITEM LAYOUT */
 .radio-group label,
 .checkbox-group label {
   display: inline-flex;
   align-items: center;
   margin-right: 15px;
-  gap: 5px;
+  gap: 8px;
   cursor: pointer;
+}
+
+/* CUSTOM RADIO BUTTON */
+.radio-group input[type="radio"] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #cbd5f5;
+  border-radius: 50%;
+  background: #ffffff;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.radio-group input[type="radio"]::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #38bdf8;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.2s ease;
+}
+
+.radio-group input[type="radio"]:checked {
+  border-color: #38bdf8;
+}
+
+.radio-group input[type="radio"]:checked::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* CUSTOM CHECKBOX */
+.checkbox-group input[type="checkbox"] {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #cbd5f5;
+  border-radius: 4px;
+  background: #ffffff;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.checkbox-group input[type="checkbox"]::before {
+  content: "✔";
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.2s ease;
+}
+
+.checkbox-group input[type="checkbox"]:checked {
+  background: #38bdf8;
+  border-color: #38bdf8;
+}
+
+.checkbox-group input[type="checkbox"]:checked::before {
+  transform: translate(-50%, -50%) scale(1);
 }
 
 /* SUBMIT BUTTON */
