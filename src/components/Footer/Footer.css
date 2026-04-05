@@ -156,4 +156,50 @@
     align-items: center;
     text-align: center;
   }
+
+/* MOBILE FIX */
+@media (max-width: 768px) {
+  .contact-form {
+    grid-template-columns: 1fr; /* force single column */
+    gap: 20px;
+    padding: 20px;
+  }
+
+  /* Make all fields full width */
+  .contact-form label {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea {
+    width: 100%;
+  }
+
+  /* Fix textarea spacing */
+  .contact-form textarea {
+    height: 140px;
+  }
+
+  /* Fix radio & checkbox layout */
+  .radio-group,
+  .checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Make radio items stack properly */
+  .radio-group label,
+  .checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Submit button full width */
+  .submit-btn {
+    width: 100%;
+    grid-column: span 1;
+  }
 }
